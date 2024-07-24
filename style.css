@@ -1,0 +1,11 @@
+/* navbar section starts here */
+.navbar_section_div {
+  height: 12vh;
+  background-color: lightgrey;
+}
+.navbar_parent_div {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+}
+/* navbar section ends here */
