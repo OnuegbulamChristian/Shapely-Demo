@@ -107,7 +107,13 @@
   .hero-section_parent_div h1 {
     text-align: center;
     font-weight: 100;
-    font-size: medium;
+    font-size: 30px;
+  }
+  .hero-section_parent_div {
+    align-items: center;
+  }
+  .hero-section_section_div {
+    height: auto;
   }
 }
 @media (max-width: 480px) {
