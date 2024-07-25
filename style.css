@@ -60,6 +60,8 @@
   height: 100vh;
   color: white;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-section_parent_div h1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -77,6 +79,8 @@
 .hero-section_button_div {
   display: flex;
   gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-section_button1 {
   background-color: blueviolet;
