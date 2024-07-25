@@ -124,7 +124,7 @@
     height: auto;
   }
   .hero-section_parent_div p {
-    font-size: medium;
+    font-size: small;
   }
 }
 @media (max-width: 480px) {
