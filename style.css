@@ -1,11 +1,99 @@
 /* navbar section starts here */
 .navbar_section_div {
   height: 12vh;
-  background-color: lightgrey;
 }
 .navbar_parent_div {
   width: 95%;
   display: flex;
   justify-content: space-around;
+  height: 12vh;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar_buttons_div {
+  display: flex;
+  gap: 30px;
+}
+.navbar_buttons_div button {
+  background-color: transparent;
+  border-style: solid;
+  border-color: transparent;
+}
+.navbar_buttons_div h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: small;
+}
+.navbar_parent_div h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: x-large;
+  padding-right: 130px;
+}
+#search_icon {
+  margin-left: 35px;
+  color: blueviolet;
 }
 /* navbar section ends here */
+
+/* hero section starts here */
+.hero-section_section_div {
+  height: 100vh;
+  background-image: url(BG1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.hero-section_parent_div {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  text-align: center;
+}
+.hero-section_parent_div h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  width: 50%;
+  text-align: center;
+}
+.hero-section_parent_div p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.hero-section_button_div {
+  display: flex;
+  gap: 10px;
+}
+.hero-section_button1 {
+  background-color: blueviolet;
+  border-style: solid;
+  border-color: transparent;
+  height: 50px;
+  width: 200px;
+  color: white;
+}
+.hero-section_button2 {
+  background-color: transparent;
+  border-style: solid;
+  border-color: white;
+  height: 50px;
+  width: 200px;
+  color: white;
+}
+/* hero section ends here */
+
+/* media queries section */
+@media (max-width: 834px) {
+  .navbar_buttons_div {
+    display: none;
+  }
+}
