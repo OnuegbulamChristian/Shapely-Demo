@@ -144,6 +144,10 @@
 /* SEO section ends here */
 
 /* porfolio section starts here */
+.portfolio-section_section_div {
+  height: 70vh;
+  background-color: red;
+}
 /* porfolio section ends here */
 
 /* media queries section */
