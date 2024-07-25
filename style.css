@@ -172,7 +172,8 @@
   }
   .SEO-section_parent_div {
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 40px;
+    height: auto;
   }
   .SEO-section_parent_div div {
     width: 100%;
