@@ -229,15 +229,25 @@
   .SEO-section_section_div {
     height: auto;
   }
+  .SEO-section_parent_div div p {
+    font-size: small;
+  }
+  .SEO-section_parent_div div h2 {
+    font-size: large;
+  }
   .portfolio-section_parent_div {
     flex-wrap: wrap;
     height: auto;
+    gap: 30px;
   }
   .portfolio-section_parent_div div {
     width: 100%;
   }
   .portfolio-section_section_div {
     height: auto;
+  }
+  .portfolio-section_parent_div div h2 {
+    font-size: large;
   }
 }
 @media (max-width: 480px) {
