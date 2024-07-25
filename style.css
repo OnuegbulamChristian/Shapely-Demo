@@ -106,11 +106,12 @@
   }
   .hero-section_parent_div h1 {
     text-align: center;
-    font-weight: 100;
-    font-size: 30px;
+    font-weight: 200;
+    font-size: 25px;
   }
   .hero-section_parent_div {
     align-items: center;
+    justify-content: center;
   }
   .hero-section_section_div {
     height: auto;
