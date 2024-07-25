@@ -112,9 +112,13 @@
   .hero-section_parent_div {
     align-items: center;
     justify-content: center;
+    align-content: center;
   }
   .hero-section_section_div {
     height: auto;
+  }
+  .hero-section_parent_div p {
+    font-size: medium;
   }
 }
 @media (max-width: 480px) {
