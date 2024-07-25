@@ -173,14 +173,16 @@
   .SEO-section_parent_div {
     flex-wrap: wrap;
     gap: 40px;
-    height: auto;
-    margin: auto;
   }
   .SEO-section_parent_div div {
     width: 100%;
   }
   .SEO-section_section_div {
     height: auto;
+  }
+  .SEO-section_parent_div div {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (max-width: 480px) {
