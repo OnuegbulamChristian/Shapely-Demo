@@ -110,6 +110,7 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
   }
   .hero-section_parent_div h1 {
     text-align: center;
