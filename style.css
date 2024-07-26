@@ -175,6 +175,7 @@
   margin-top: 30px;
   margin-bottom: 30px;
   color: grey;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .portfolio-section_parent_div div button {
   width: 200px;
@@ -185,6 +186,97 @@
   color: white;
 }
 /* porfolio section ends here */
+
+/* small parallax section starts here */
+.small-parallax-section_section_div {
+  height: 50vh;
+  background-image: url(BG2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.small-parallax-section_parent_div {
+  width: 95%;
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.small-parallax-section_parent_div p {
+  width: 75%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.small-parallax-section_parent_div h1 {
+  font-size: 50px;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.small-parallax-section_parent_div button {
+  width: 200px;
+  height: 50px;
+  border-style: solid;
+  border-color: transparent;
+  background-color: blueviolet;
+  color: white;
+}
+/* small parallax section ends here */
+
+/* limitlless options section starts here */
+.limitless-options-section_section_div {
+  height: 800px;
+  background-color: #e7e7e7;
+}
+.limitless-options-section_parent_div {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+}
+.limitless-options-section_parent_div h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  font-weight: 100;
+  padding-top: 60px;
+}
+.limitless-options-section_parent_div div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.limitless-options-section_parent_div div {
+  height: 560px;
+  width: 75%;
+  padding-top: 30px;
+}
+.limitless-options-section_parent_div p {
+  width: 75%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: grey;
+}
+.limitless-options-section_parent_div button {
+  width: 200px;
+  height: 50px;
+  border-style: solid;
+  border-color: transparent;
+  color: white;
+  background-color: blueviolet;
+}
+/* limitlless options section ends here */
 
 /* media queries section */
 @media (max-width: 834px) {
@@ -235,6 +327,12 @@
   .SEO-section_parent_div div h2 {
     font-size: large;
   }
+  .SEO-section_parent_div div button {
+    margin-bottom: 20px;
+  }
+  .portfolio-section_parent_div div h2 {
+    padding-top: 20px;
+  }
   .portfolio-section_parent_div {
     flex-wrap: wrap;
     height: auto;
@@ -248,6 +346,12 @@
   }
   .portfolio-section_parent_div div h2 {
     font-size: large;
+  }
+  .portfolio-section_parent_div div p {
+    font-size: small;
+  }
+  .limitless-options-section_parent_div div {
+    width: 100%;
   }
 }
 @media (max-width: 480px) {
