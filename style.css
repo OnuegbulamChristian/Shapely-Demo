@@ -278,6 +278,13 @@
 }
 /* limitlless options section ends here */
 
+/* projects section starts here */
+.projects-section_section_div {
+  height: 120vh;
+  background-color: red;
+}
+/* projects section ends here */
+
 /* media queries section */
 @media (max-width: 834px) {
   .navbar_buttons_div {
@@ -351,7 +358,7 @@
     font-size: small;
   }
   .small-parallax-section_parent_div h1 {
-    font-size: large;
+    font-size: xx-large;
     font-weight: 100;
   }
   .limitless-options-section_parent_div div {
