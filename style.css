@@ -350,8 +350,15 @@
   .portfolio-section_parent_div div p {
     font-size: small;
   }
+  .small-parallax-section_parent_div h1 {
+    font-size: large;
+    font-weight: 100;
+  }
   .limitless-options-section_parent_div div {
     width: 100%;
+  }
+  .limitless-options-section_section_div {
+    height: auto;
   }
 }
 @media (max-width: 480px) {
