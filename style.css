@@ -280,12 +280,54 @@
 
 /* projects section starts here */
 .projects-section_section_div {
-  height: 120vh;
-  background-color: red;
+  height: 136vh;
+  background-color: black;
+}
+.projects-section_parent_div {
+  height: 136vh;
+  color: white;
+}
+.projects-section_parent_div h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: x-large;
+  padding-top: 70px;
+}
+.projects-section_parent_div p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: small;
+}
+.projects-section_parent_div div div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.projects-section_parent_div div div {
+  width: calc(100% / 4);
+}
+.projects-section_parent_div div {
+  display: flex;
+  flex-wrap: wrap;
 }
 /* projects section ends here */
 
+/* customer review section starts here */
+.customer-review-section_section_div {
+  height: 50vh;
+  background-color: red;
+}
+/* customer review section ends here */
+
 /* media queries section */
+@media (max-width: 1024px) {
+  .projects-section_section_div {
+    height: auto;
+  }
+}
 @media (max-width: 834px) {
   .navbar_buttons_div {
     display: none;
