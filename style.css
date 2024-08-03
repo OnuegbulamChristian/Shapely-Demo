@@ -323,11 +323,6 @@
 /* customer review section ends here */
 
 /* media queries section */
-@media (max-width: 1024px) {
-  .projects-section_section_div {
-    height: auto;
-  }
-}
 @media (max-width: 834px) {
   .navbar_buttons_div {
     display: none;
@@ -408,6 +403,14 @@
   }
   .limitless-options-section_section_div {
     height: auto;
+  }
+  .projects-section_parent_div div div {
+    width: calc(100% / 2);
+  }
+}
+@media (max-width: 768px) {
+  .projects-section_parent_div div div {
+    width: calc(100% / 1);
   }
 }
 @media (max-width: 480px) {
