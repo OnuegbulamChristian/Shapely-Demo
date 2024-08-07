@@ -345,6 +345,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 100%;
 }
 .customer-review_parent_div div {
   width: 100px;
@@ -367,6 +368,9 @@
     height: auto;
   }
   .projects_section_div {
+    height: auto;
+  }
+  .customer-review_section_div {
     height: auto;
   }
 }
@@ -452,5 +456,17 @@
   }
   .projects_section_image_div div {
     width: calc(100% / 1);
+  }
+  .projects_section_div p {
+    font-size: medium;
+  }
+  .projects_section_div h3 {
+    font-size: large;
+  }
+  .customer-review_parent_div h1 {
+    font-size: large;
+  }
+  .customer-review_parent_div p {
+    font-size: medium;
   }
 }
