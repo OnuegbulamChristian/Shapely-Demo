@@ -457,6 +457,8 @@
   .projects_section_image_div div {
     width: calc(100% / 1);
   }
+}
+@media (max-width: 480px) {
   .projects_section_div p {
     font-size: medium;
   }
