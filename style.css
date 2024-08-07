@@ -416,10 +416,6 @@
   .navbar_buttons_div {
     display: none;
   }
-  .main-clients_logos_div div {
-    width: 150px;
-    height: 150px;
-  }
 }
 @media (max-width: 768px) {
   .hero-section_button_div {
@@ -499,10 +495,6 @@
   .projects_section_image_div div {
     width: calc(100% / 1);
   }
-  .main-clients_logos_div div {
-    width: 200px;
-    height: 200px;
-  }
 }
 @media (max-width: 480px) {
   .projects_section_div p {
@@ -518,9 +510,5 @@
   }
   .customer-review_parent_div p {
     font-size: small;
-  }
-  .main-clients_logos_div div {
-    width: 300px;
-    height: 30px;
   }
 }
